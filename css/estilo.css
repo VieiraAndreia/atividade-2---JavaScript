@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem;
+    background-color: #035f17;
+    align-items: center;
+    color: #ebf2ed;
+    position: fixed;
+    width: 100%;
+}
+
+header h1{
+    margin: 0;
+    color:rgb(243, 246, 248);
+    padding: 16px;
+}
+
+main{
+    padding: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main button{
+    background-color: #b7f29e;
+}
+
+footer{
+    background-color:#035f17; 
+    height: 52px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    align-items: center;     
+    gap: 1rem;                                 
+}
+
+footer p,a{
+    color: #fff
+}
